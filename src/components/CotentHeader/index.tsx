@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SelecInput from '../../components/Selectinput';
+
 import {Container, TitleContainer, Controllers} from './styles';
 
 const ContentHeader: React.FC = () => {
@@ -9,8 +11,8 @@ const ContentHeader: React.FC = () => {
                 <h1>Título</h1>
             </TitleContainer>
             <Controllers>
-                <button type="button">Botão A</button>
-                <button type="button">Botão B</button>
+                <SelecInput />
+                <SelecInput />
             </Controllers>
         </Container>
     );
